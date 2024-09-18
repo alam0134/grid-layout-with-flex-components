@@ -2,3 +2,7 @@
     font-size: 36px;
 }
 
+.emoji {
+    border: 1px black solid;
+    border-radius: 10px;
+}
