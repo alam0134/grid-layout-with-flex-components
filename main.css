@@ -7,7 +7,7 @@ body {
 }
 
 .emoji {
-    border: 1px black solid;
+    border: 2px black solid;
     border-radius: 10px;
     padding: 10px;
     display: flex;
@@ -40,5 +40,9 @@ body {
     /* 1 will keep my link button stack with bottom always */
 }
 
-
+.emojis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 
