@@ -19,6 +19,8 @@ body {
 .emoji h2 {
     font-size: 24px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.381);
+    margin-bottom: 0px;
+    /* removed margin bottom to remove the space */
 }
 
 .icon {
