@@ -27,3 +27,11 @@ body {
     margin: 0 auto;
 }
 
+.emoji a {
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
