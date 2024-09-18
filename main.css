@@ -25,6 +25,7 @@ body {
     font-size: 56px;
     order: -1;
     margin: 0 auto;
+    /* -1 will keep my emoji on the top always */
 }
 
 .emoji a {
@@ -33,5 +34,7 @@ body {
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
+    order: 1;
+    /* 1 will keep my link button stack with bottom always */
 }
 
