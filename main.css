@@ -13,7 +13,6 @@ body {
     display: flex;
     flex-direction: column;
     /* default flex value is row so i had to change the row into column with flex-direction tag */
-    /* margin: 0 auto; */
 }
 /* since i have no information about size of h1 h2 padding i am using the estimated and standard value */
 .emoji h2 {
@@ -21,6 +20,10 @@ body {
     border-bottom: 2px solid rgba(0, 0, 0, 0.381);
     margin-bottom: 0px;
     /* removed margin bottom to remove the space */
+}
+
+.emoji p {
+    flex-grow: 2;
 }
 
 .icon {
@@ -37,6 +40,8 @@ body {
     padding: 10px;
     border-radius: 5px;
     order: 1;
+    flex-grow: 1;
+    /* max-height: 20px; */
     /* 1 will keep my link button stack with bottom always */
 }
 
