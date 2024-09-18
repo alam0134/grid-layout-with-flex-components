@@ -7,3 +7,7 @@
     border-radius: 10px;
     padding: 10px;
 }
+/* since i have no information about size of h1 h2 padding i am using the estimated and standard value */
+.emoji h2 {
+    font-size: 24px;
+}
