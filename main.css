@@ -12,6 +12,8 @@ body {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    /* default flex value is row so i had to change the row into column with flex-direction tag */
+    /* margin: 0 auto; */
 }
 /* since i have no information about size of h1 h2 padding i am using the estimated and standard value */
 .emoji h2 {
@@ -22,4 +24,6 @@ body {
 .icon {
     font-size: 56px;
     order: -1;
+    margin: 0 auto;
 }
+
